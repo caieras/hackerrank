@@ -28,7 +28,7 @@ def count_apples_and_oranges(s, t, a, b, apples, oranges)
   end
     
   oranges.each do |orange| #oranges: [5, -6]
-   position = a + orange   # tree position + orange distance
+   position = b + orange   # tree position + orange distance
     if position >= s && position <= t
       oranges_counter += 1
     end
